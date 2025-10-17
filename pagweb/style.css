@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f0f5;
+    color: black;
+    text-align: center;
+}
+
+
+header {
+    background-color: #48a1bd;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+header img {
+    max-width: 350px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.container, .info {
+    background-color: aliceblue;
+    border: 1px solid #48a1bd;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+
+.presentacion {
+    background-color: #209cad;
+    color: white;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+
+.producto, .form-container, .contact-info {
+    background-color: #209cad;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+.producto img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+
+button, .logo {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover, .logo:hover {
+    background-color: #3a6ea5;
+}
+
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.galeria img {
+    width: 20%;         
+    max-width: 200px; 
+    height: auto;       
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
